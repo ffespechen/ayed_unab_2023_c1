@@ -14,6 +14,7 @@ def insertar_nodo(raiz, dato):
     Función que inserta nodos en el árbol
     Si son menores al valor del nodo comparado, a la IZQUIERDA
     Si son mayores al valor del nodo comparado, a la DERECHA
+    Si es None, devuelve el nodo recién creado
     '''
     if arbol_vacio(raiz):
         raiz = NodoArbol(dato)
