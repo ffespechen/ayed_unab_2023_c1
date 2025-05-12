@@ -1,0 +1,16 @@
+Escribir una función quee recibe un int 
+Ese int representa segundos
+función no regresa nada
+print( horas minutos y segundos )
+
+convertir_hms(60)
+00:01:00
+
+convertir_hms(3600)
+01:00:00
+
+convertir_hms(3662)
+01:01:02
+
+convertir_hms(-3)
+'No se puede convertir a HH:MM:SS'
